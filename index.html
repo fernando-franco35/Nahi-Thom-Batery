@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+        <!-- Definir el conjunto de caracteres para evitar problemas de codificación -->
+        <meta charset="UTF-8">
+        
+        <!-- Configuración para compatibilidad con Internet Explorer -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- Adaptar la página para dispositivos móviles, asegurando una buena experiencia de usuario -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- Descripción meta: importante para el SEO, ya que aparece en los resultados de búsqueda -->
+        <meta name="description" content="Alura MIDI - Aprende y experimenta con sonidos de batería y música en línea.">
+        
+        <!-- Metadatos Open Graph: ayudan a mejorar la vista previa cuando la página se comparte en redes sociales -->
+        <meta property="og:title" content="Alura MIDI - Crea música en línea">
+        <meta property="og:description" content="Explora y experimenta con sonidos y ritmos en Alura MIDI.">
+        <meta property="og:image" content="https://miweb.com/images/bateria.png">
+        <meta property="og:url" content="https://miweb.com/">
+        <meta property="og:type" content="website">
+        
+        <!-- Título optimizado para SEO: usa palabras clave relevantes y mantenlo entre 50-60 caracteres -->
+        <title>Alura MIDI - Crea música y sonidos de batería en línea</title>
+    
+        <!-- Conexión previa a Google Fonts para optimizar la carga de las fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+        <!-- Importación de la fuente Montserrat, optimizando el peso para las variaciones que necesitamos -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    
+        <!-- Favicon optimizado con un atributo alt para mejorar accesibilidad y SEO -->
+        <link rel="icon" type="image/png" href="images/bateria.png" alt="Ícono de batería">
+    
+        <!-- Enlace a los archivos CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>    
+
+<body>
+    <header class="header">
+        <nav><img src="assets/image.png"></nav>
+    </header>
+
+    <h1>Nahi / Thom Batery</h1>
+
+    <section class="teclado">
+        <button class="tecla tecla_pom">Pom</button>
+        <button class="tecla tecla_clap">Clap</button>
+        <button class="tecla tecla_tim">Tim</button>
+
+        <button class="tecla tecla_puff">Puff</button>
+        <button class="tecla tecla_splash">Splash</button>
+        <button class="tecla tecla_toim">Toim</button>
+
+        <button class="tecla tecla_psh">Psh</button>
+        <button class="tecla tecla_tic">Tic</button>
+        <button class="tecla tecla_tom">Tom</button>
+    </section>
+
+    <audio src="sounds/keyq.wav" id="sonido_tecla_pom"></audio>
+    <audio src="sounds/keye.wav" id="sonido_tecla_tim"></audio>
+    <audio src="sounds/keya.wav" id="sonido_tecla_puff"></audio>
+    <audio src="sounds/keys.wav" id="sonido_tecla_splash"></audio>
+    <audio src="sounds/keyw.wav" id="sonido_tecla_clap"></audio>
+    <audio src="sounds/keyd.wav" id="sonido_tecla_toim"></audio>
+    <audio src="sounds/keyz.wav" id="sonido_tecla_psh"></audio>
+    <audio src="sounds/keyx.wav" id="sonido_tecla_tic"></audio>
+    <audio src="sounds/keyc.wav" id="sonido_tecla_tom"></audio>
+    
+    <script src="main.js"></script> 
+</body>
+</html>
